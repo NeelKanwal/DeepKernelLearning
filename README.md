@@ -1,9 +1,18 @@
 # Deep Kernel Learning
 This repository contains the source code for deep kernel learning described in the paper: "Are you sure it’s an artifact? Artifact detection and uncertainty quantification in histological images"
 
-Link to the paper: will be added soon.
+link to the paper will be added soon.
 
 # Requirements
+Python >= 3.6.7
+Numpy == 1.23.4
+Pytroch == 2.2.0
+Gpytorch == 1.9.0
+Pandas == 1.5.1
+deepsig == 1.2.6
+opencv-python == 4.7.0.68
+pyvips == 2.2.1
+openslide-python == 1.2.0
 
 # Abstract
 Will be updated soon.
@@ -13,5 +22,5 @@ Will be updated soon.
 - TCGAFocus: https://zenodo.org/records/3910757
 
 # How to cite our Work
-The code is released free of charge as open-source software under the GPL-3.0 License. 
-%%Please cite our paper if you use it in your research.
+The code is released free of charge as open-source software under the GPL-3.0 license. Bibtex citation will be made available soon.
+
