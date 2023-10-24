@@ -13,6 +13,10 @@ deepsig == 1.2.6
 opencv-python == 4.7.0.68
 pyvips == 2.2.1
 openslide-python == 1.2.0
+Matploblib
+Scipy
+Scikit-learn
+Seaborn
 
 # Abstract
 Will be updated soon.
