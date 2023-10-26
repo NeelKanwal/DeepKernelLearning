@@ -24,27 +24,36 @@ Will be updated soon.
 # Results
 Will be added after publishing
 
-# How to use the code.
-Please install requirement.txt or Python dependencies separately.
+# How to use the code
+Please install requirements.txt or Python dependencies separately.
 Update paths to the processed dataset and path to save experiment results.
 ## Dataset 
+
 ```
 - path_to\blur_dataset
       - training
            -- artifact_free
             -- blur
-     - validation
+      - validation
             -- artifact_free
             -- blur
-      - test
+       - test
             -- artifact_free
             -- blur
 ```
 
+- Train models using train_dcnn.py for SOTA DCNNs mentioned in the paper
+- Train DKL models using train_dkl.py, choosing specific architectures and hyperparameters.
+- Train Baseline models using train_baseline.py
+
+- Use paths to experiment directories for best_weights.dat and run inference.py for test set, TCGAFocus and FocusPath
+- Use predicted excel sheets to create confidence plots using plot_confidence.py
+- 
 # Publically available datasets
 - FocusPath: https://zenodo.org/records/3926181
 - TCGAFocus: https://zenodo.org/records/3910757
-
+Use transform_tcga.py to transform the dataset for running inference models.
+   
 # How to cite our Work
 The code is released free of charge as open-source software under the GPL-3.0 license. Bibtex citations will be made available soon.
 
