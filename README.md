@@ -30,9 +30,11 @@ Update paths to the processed dataset and path to save experiment results.
 ## Dataset 
 -\root
 - ...\root\blur_dataset\training\
+- 
     ---                       \.......\artifact_free
     ---                       \.......\ blur
 - ...\root\blur_dataset\vaidation\
+- 
     ---                       \.......\artifact_free
       ---                     \.......\ blur
 - ...\root\blur_dataset\test\
