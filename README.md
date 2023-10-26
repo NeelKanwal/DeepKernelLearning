@@ -29,13 +29,13 @@ Please install requirement.txt or Python dependencies separately.
 Update paths to the processed dataset and path to save experiment results.
 ## Dataset 
 - path_to\blur_dataset
-     - training
+ - training
          -- artifact_free
           -- blur
-      - validation
+ - validation
             -- artifact_free
             -- blur
-      - test
+ - test
             -- artifact_free
             -- blur
 
