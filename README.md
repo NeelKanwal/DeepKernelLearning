@@ -21,10 +21,29 @@ link to the paper will be added soon.
 # Abstract
 Will be updated soon.
 
+# Results
+Will be added after publishing
+
+# How to use the code.
+Please install requirement.txt or Python dependencies separately.
+Update paths to the processed dataset and path to save experiment results.
+## Dataset 
+-\root
+    ...\root\blur_dataset\
+          ................\training\
+                            \.......\artifact_free
+                            \.......\ blur
+          ................\vaidation\
+                            \.......\artifact_free
+                            \.......\ blur
+          ..................\test\
+                            \.......\artifact_free
+                            \.......\ blur
+
 # Publically available datasets
 - FocusPath: https://zenodo.org/records/3926181
 - TCGAFocus: https://zenodo.org/records/3910757
 
 # How to cite our Work
-The code is released free of charge as open-source software under the GPL-3.0 license. Bibtex citation will be made available soon.
+The code is released free of charge as open-source software under the GPL-3.0 license. Bibtex citations will be made available soon.
 
