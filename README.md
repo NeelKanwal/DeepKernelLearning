@@ -48,10 +48,11 @@ Update paths to the processed dataset and path to save experiment results.
 
 - Use paths to experiment directories for best_weights.dat and run inference.py for test set, TCGAFocus and FocusPath
 - Use predicted excel sheets to create confidence plots using plot_confidence.py
-- 
+  
 # Publically available datasets
 - FocusPath: https://zenodo.org/records/3926181
 - TCGAFocus: https://zenodo.org/records/3910757
+  
 Use transform_tcga.py to transform the dataset for running inference models.
    
 # How to cite our Work
