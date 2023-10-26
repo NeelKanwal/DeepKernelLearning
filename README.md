@@ -28,16 +28,18 @@ Will be added after publishing
 Please install requirement.txt or Python dependencies separately.
 Update paths to the processed dataset and path to save experiment results.
 ## Dataset 
+```
 - path_to\blur_dataset
- - training
-         -- artifact_free
-          -- blur
- - validation
+      - training
+           -- artifact_free
+            -- blur
+     - validation
             -- artifact_free
             -- blur
- - test
+      - test
             -- artifact_free
             -- blur
+```
 
 # Publically available datasets
 - FocusPath: https://zenodo.org/records/3926181
