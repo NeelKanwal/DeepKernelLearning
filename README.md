@@ -4,19 +4,19 @@ This repository contains the source code for deep kernel learning described in t
 link to the paper will be added soon.
 
 # Requirements
-Python >= 3.6.7
-Numpy == 1.23.4
-Pytroch == 2.2.0
-Gpytorch == 1.9.0
-Pandas == 1.5.1
-deepsig == 1.2.6
-opencv-python == 4.7.0.68
-pyvips == 2.2.1
-openslide-python == 1.2.0
-Matploblib
-Scipy
-Scikit-learn
-Seaborn
+- Python >= 3.6.7
+- Numpy == 1.23.4
+- Pytroch == 2.2.0
+- Gpytorch == 1.9.0
+- Pandas == 1.5.1
+- deepsig == 1.2.6
+- opencv-python == 4.7.0.68
+- pyvips == 2.2.1
+- openslide-python == 1.2.0
+- Matploblib
+- Scipy
+- Scikit-learn
+- Seaborn
 
 # Abstract
 Will be updated soon.
