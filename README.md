@@ -41,6 +41,11 @@ Update paths to the processed dataset and path to save experiment results.
      ---                      \.......\artifact_free
       ---                     \.......\ blur
 
+  
+```{r}
+data <- read.csv("training/artifact_free/data.csv")
+```
+
 # Publically available datasets
 - FocusPath: https://zenodo.org/records/3926181
 - TCGAFocus: https://zenodo.org/records/3910757
