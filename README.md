@@ -54,6 +54,9 @@ Update paths to the processed dataset and path to save experiment results.
 - TCGAFocus: https://zenodo.org/records/3910757
   
 Use transform_tcga.py to transform the dataset for running inference models.
+
+## Private Dataset      
+EMC dataset mentioned in the paper will soon be released and link will be added here.
    
 # How to cite our Work
 The code is released free of charge as open-source software under the GPL-3.0 license. Bibtex citations will be made available soon.
