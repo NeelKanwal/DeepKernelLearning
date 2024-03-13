@@ -22,8 +22,7 @@ This repository contains the source code for deep kernel learning described in t
 - Seaborn
 
 # Abstract
-Modern cancer diagnostics involves extracting tissue specimens from suspicious areas and conducting histotechnical procedures to prepare a digitized glass slide, called Whole Slide Image (WSI), for further examination. These procedures frequently introduce different types of artifacts in the obtained WSI, and histological artifacts might influence Computational Pathology (CPATH) systems further down to a diagnostic pipeline if not excluded or handled. Deep Convolutional Neural Networks (DCNNs) have achieved promising results for the detection of some WSI artifacts; however, they
-do not incorporate uncertainty in their predictions. This paper proposes an uncertaintyaware Deep Kernel Learning (DKL) model to detect blurry areas and folded tissues, two types of artifacts that can appear in WSIs. The proposed probabilistic model combines a CNN feature extractor and a sparse Gaussian Processes (GPs) classifier, which improves the performance of current state-of-the-art artifact detection DCNNs and provides uncertainty estimates. We achieved 0.996 and 0.938 F1 scores for blur and folded tissue detection on unseen data, respectively. In extensive experiments, we validated the DKL model on unseen data from external independent cohorts with different staining and tissue types, where it outperformed DCNNs. Interestingly, the DKL model is more confident in the correct predictions and less in the wrong ones. The proposed DKL model can be integrated into the preprocessing pipeline of CPATH systems to provide reliable predictions and possibly serve as a quality control tool.
+Modern cancer diagnostics involves extracting tissue specimens from suspicious areas and conducting histotechnical procedures to prepare a digitized glass slide, called Whole Slide Image (WSI), for further examination. These procedures frequently introduce different types of artifacts in the obtained WSI, and histological artifacts might influence Computational Pathology (CPATH) systems further down to a diagnostic pipeline if not excluded or handled. Deep Convolutional Neural Networks (DCNNs) have achieved promising results for the detection of some WSI artifacts; however, they do not incorporate uncertainty in their predictions. This paper proposes an uncertaintyaware Deep Kernel Learning (DKL) model to detect blurry areas and folded tissues, two types of artifacts that can appear in WSIs. The proposed probabilistic model combines a CNN feature extractor and a sparse Gaussian Processes (GPs) classifier, which improves the performance of current state-of-the-art artifact detection DCNNs and provides uncertainty estimates. We achieved 0.996 and 0.938 F1 scores for blur and folded tissue detection on unseen data, respectively. In extensive experiments, we validated the DKL model on unseen data from external independent cohorts with different staining and tissue types, where it outperformed DCNNs. Interestingly, the DKL model is more confident in the correct predictions and less in the wrong ones. The proposed DKL model can be integrated into the preprocessing pipeline of CPATH systems to provide reliable predictions and possibly serve as a quality control tool.
 
 <img width="1498" alt="image" src="https://github.com/NeelKanwal/DeepKernelLearning/assets/52494244/322f2232-11bc-4f77-bf4f-731050a0b4ab">
 
@@ -45,6 +44,12 @@ Please install requirements.txt or Python dependencies separately.
 Update paths to the processed dataset and path to save experiment results.
 ## Dataset 
 
+The dataset is publicaly available at Zenodo. https://zenodo.org/records/10809442. 
+
+You can use D40x directory and corresponding folders with artifacts to organize in the following order.
+
+For folded tissue, D20x is used in this work for development and D40x for testing the folded tissue DKL models. 
+
 ```
 - path_to\blur_dataset
       - training
@@ -65,7 +70,7 @@ Update paths to the processed dataset and path to save experiment results.
 - Use paths to experiment directories for best_weights.dat and run inference.py for test set, TCGAFocus and FocusPath
 - Use predicted excel sheets to create confidence plots using plot_confidence.py
   
-# Publically available datasets
+# Other Publically available datasets (used in external validation)
 - FocusPath: https://zenodo.org/records/3926181
 - TCGAFocus: https://zenodo.org/records/3910757
   
